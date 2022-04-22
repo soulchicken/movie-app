@@ -1,0 +1,75 @@
+.info-set {
+    padding: 1rem;
+    padding-top: 2rem;
+}
+.info-set a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-set a, .info-set a:link, .info-set a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.info-set a:hover {
+    color: #156c53;
+    -webkit-animation: colorchange 5s infinite alternate;
+    animation: colorchange 5s infinite alternate;
+}
+
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: black;
+  }
+
+  20% {
+    color: #156c53;;
+  }
+
+  40% {
+    color: #1a833c;
+  }
+
+  60% {
+    color: #8baf4b;
+  }
+
+
+  80% {
+    color: #d9d984;
+  }
+
+  100% {
+    color: #e5e7b6;
+  }
+}
+
+@keyframes colorchange {
+    0% {
+        color: black;
+      }
+    
+      20% {
+        color: #156c53;;
+      }
+    
+      40% {
+        color: #1a833c;
+      }
+    
+      60% {
+        color: #8baf4b;
+      }
+    
+    
+      80% {
+        color: #d9d984;
+      }
+    
+      100% {
+        color: #e5e7b6;
+      }
+}
